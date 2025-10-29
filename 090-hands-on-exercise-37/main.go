@@ -19,8 +19,8 @@ func main() {
 	// 	fmt.Printf("Key \"%v\" value is \"%v\"\n", k, v)
 	// }
 
-	if age2, ok := m["James"]; ok {
-		fmt.Println(age2, !ok)
+	if age2, test := m["James"]; test {
+		fmt.Println(age2, !test)
 	} else {
 		fmt.Println("key not found")
 	}

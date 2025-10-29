@@ -19,7 +19,7 @@ func main() {
 	for i, v := range iceCreamFlavors {
 		fmt.Printf("No. %v \tThe index of %v is %v\n", i, v, i)
 	}
-	iceCreamFlavors[31] = "Test"
+	iceCreamFlavors = append(iceCreamFlavors, "test")
 
 	fmt.Println(iceCreamFlavors[31])
 }
