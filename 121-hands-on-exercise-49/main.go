@@ -3,11 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	xm := map[string][]string{
-		"bond_james":       {"shaken, not stirred", "martinis", "fast cars"},
-		"moneypenny_jenny": {"intelligence", "literature", "computer science"},
-		"no_dr":            {"cats", "ice cream", "sunsets"},
-	}
+	xm := make(map[string][]string)
+	xm["bond_james"] = []string{"shaken, not stirred", "martinis", "fast cars"}
+	xm["moneypenny_jenny"] = []string{"intelligence", "literature", "computer science"}
+	xm["no_dr"] = []string{"cats", "ice cream", "sunsets"}
 
 	fmt.Println(xm)
 	fmt.Println("-----------------------")
