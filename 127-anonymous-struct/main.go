@@ -1,0 +1,34 @@
+package main
+
+import "fmt"
+
+type person struct {
+	first string
+	last  string
+	age   int
+}
+
+func main() {
+	p1 := struct {
+		first string
+		last  string
+		age   int
+	}{
+		first: "James",
+		last:  "Bond",
+		age:   42,
+	}
+
+	p2 := person{
+		first: "Jenny",
+		last:  "Moneypenny",
+		age:   27,
+	}
+
+	// fmt.Println(p1)
+	// fmt.Println(p2)
+
+	fmt.Printf("%T\n", p1)
+	fmt.Printf("%T\n", p2)
+
+}
