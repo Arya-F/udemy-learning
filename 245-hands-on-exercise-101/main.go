@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	dog "udemylearning/245-hands-on-exercise-101/package"
+	"udemylearning/245-hands-on-exercise-101/dog"
 )
 
 func main() {
