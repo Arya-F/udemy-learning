@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Arya-F/udemy-learning/248-example-test/doog"
+)
 
 func main() {
 
-	fmt.Println(Sum(5, 3))
+	fmt.Println(doog.Sum(5, 3))
 
 }

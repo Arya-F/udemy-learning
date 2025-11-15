@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"udemylearning/245-hands-on-exercise-101/dog"
+
+	"github.com/Arya-F/udemy-learning/245-hands-on-exercise-101/dog"
 )
 
 func main() {
