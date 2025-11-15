@@ -1,4 +1,4 @@
-module udemylearning
+module github.com/Arya-F/udemy-learning
 
 go 1.25.2
 
